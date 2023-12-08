@@ -3,9 +3,11 @@
 ```
 const FakeRoba = {
     Koodikielet: ["Lua", "JavaScript", "Python"],
-    Puhumiskielet: ["Finnish", "English"],
     Työkalut: ["Express", "MySQL"],
-    Huumorintajuinen: false,
-    Ahtifanboy: true
+    Puhekielet: ["Finnish", "English"],
+    Huumorintajuinen: 0,
+    Ahtifanboy: 1
 }
+
+console.error(FakeRoba)
 ```
