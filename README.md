@@ -3,7 +3,7 @@
 ```
 const FakeRoba = {
     Koodikielet: ["Lua", "JavaScript", "Python"],
-    Työkalut: ["Express", "MySQL"],
+    Työkalut: ["Express", "MySQL", "React"],
     Puhekielet: ["Finnish", "English"],
     Huumorintajuinen: 0,
     Ahtifanboy: 1
