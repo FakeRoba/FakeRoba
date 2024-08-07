@@ -2,11 +2,19 @@
 
 ```
 const FakeRoba = {
-    Koodikielet: ["Lua", "JavaScript", "Python"],
-    Työkalut: ["Express", "MySQL", "React"],
-    Puhekielet: ["Finnish", "English"],
-    Huumorintajuinen: 0,
-    Ahtifanboy: 1
+    Humor: 0,
+    Hat: "Gray", // White would get stained easily
+    Languages: {
+        Programming: ["Lua", "Javascript", "Python"],
+        Spoken: ["Finnish", "English"]
+    },
+    Tools: ["Express", "MySQL", "React", "Crypto"],
+    Quotes: [
+        "Well, If you always dream and do nothing for it then it will be only dream.",
+        "People are celebrating so much, what the fuck are they celebrating?",
+        "If it was easy, everyone would do it"
+    ],
+    Fanboy: {Costi: "0", Ahti: "0", Hugo: 0}
 }
 
 console.error(FakeRoba)
