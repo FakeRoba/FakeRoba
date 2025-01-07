@@ -1,18 +1,32 @@
 ![Banner](banner.png)
 
 ```
-const FakeRoba = {
+let FakeRoba = {
     Humor: 0,
     Hat: "Gray", // White would get stained easily
     Languages: {
-        Programming: ["Lua", "Javascript", "Python"],
+        Programming: ["Lua", "Javascript", "Python", "php"],
         Spoken: ["Finnish", "English"]
     },
-    Tools: ["Express", "MySQL", "React", "Crypto"],
+    Tools: {
+        Frontend: [
+            "Vite",
+            "React",
+            "TailwindCSS",
+            "daisyUI"
+        ],
+        Backend: [
+            "Express",
+            "koa.js",
+            "MySQL",
+            "Crypto",
+            "dotenv"
+        ],
+    },
     Quotes: [
-        "Well, If you always dream and do nothing for it then it will be only dream.",
+        "Dream as a word is made for those who do not understand to how to make it come true.",
         "People are celebrating so much, what the fuck are they celebrating?",
-        "If it was easy, everyone would do it"
+        "If it was easy, everyone would do it."
     ],
     Fanboy: {Costi: "0", Ahti: "0", Hugo: 0}
 }
